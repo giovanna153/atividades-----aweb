@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var a = Number(prompt("Digite um número:"));
+        var b = Number(prompt("Digite outro número:"));
+        var resultado = a + b;
+        document.write("Soma = " + resultado + "<br><br>");
+
+        var n1 = Number(prompt("Digite a primeira nota:"));
+        var n2 = Number(prompt("Digite a segunda nota:"));
+        var mediaSimples = (n1 + n2) / 2;
+        document.write("Média = " + mediaSimples + "<br><br>");
+
+        var nome = prompt("Qual seu nome?");
+        document.write("Olá " + nome + ", seja bem-vindo(a) ao mundo da programação JavaScript!" + "<br><br>");
+
+        var nota1 = Number(prompt("Digite uma nota:"));
+        var nota2 = Number(prompt("Digite outra nota:"));
+        var media = (nota1 * 2 + nota2 * 3) / 5;
+        document.write("Média final = " + media + "<br><br>");
+
+        var largura = Number(prompt("Digite a largura:"));
+        var profundidade = Number(prompt("Digite a profundidade:"));
+        var area = largura * profundidade;
+        document.write(
+            "O ambiente possui largura de " + largura +
+            " e profundidade de " + profundidade +
+            ", totalizando " + area + " metros quadrados.<br><br>"
+        );
+
+        var numero = Number(prompt("Digite um número qualquer:"));
+        var ultimo = numero % 10;
+        document.write("O último dígito é: " + ultimo);
+
+    </script>
+</body>
+</html>
+
