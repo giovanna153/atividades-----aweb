@@ -1,15 +1,1 @@
-/* fundo das imagens do carrossel */
-.slide1 {
-  background-image: url('./img/pessoas-em-filmagens-medias-na-agencia-de-viagens.jpg');
-}
 
-.slide2 {
-  background-image: url('./img/ilhas-maldivas.jpg');
-}
-
-/* Ajuste geral do carrossel */
-.carousel-item {
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-}
