@@ -1,85 +1,15 @@
-body {
-  background-color: #313131;
+/* fundo das imagens do carrossel */
+.slide1 {
+  background-image: url('./img/pessoas-em-filmagens-medias-na-agencia-de-viagens.jpg');
 }
 
-.navbar-custom {
-  background-color: #000; /* Cor de fundo preta */
+.slide2 {
+  background-image: url('./img/ilhas-maldivas.jpg');
 }
-.navbar-custom .navbar-brand {
-  color: #fff; /* Cor do texto branco */
-}
-.navbar-custom .navbar-toggler {
-  border-color: #f9f5f5; /* Cor da borda branca */
-}
-.navbar-custom .navbar-toggler-icon {
-  background-color: #fff; /* Cor do ícone do hambúrguer branco */
-}
-/* Estilos personalizados para o carrossel */
+
+/* Ajuste geral do carrossel */
 .carousel-item {
-  height: 100vh; /* Ocupar toda a altura da tela */
+  height: 100vh;
   background-size: cover;
   background-position: center;
-}
-.carousel-caption {
-  bottom: 20%;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-}
-.carousel-caption h1 {
-  font-size: 3rem;
-}
-.carousel-caption p {
-  font-size: 1.5rem;
-}
-.carousel-caption .btn {
-  margin-top: 20px;
-}
-  /* Estilos personalizados */
-.card {
-  max-width: 300px; /* Largura máxima de cada card */
-  margin-bottom: 20px; /* Espaçamento entre os cards */
-}
-.card-img-top {
-  height: 200px; /* Altura da imagem do card */
-  object-fit: cover; /* Redimensionamento da imagem */
-}
-.card-body {
-  text-align: center; /* Centraliza o conteúdo do card */
-}
-/* Estilos personalizados */
-.about-section {
-  padding: 80px 0;
-  background-color: #f8f9fa; /* Cor de fundo do seção */
-}
-.about-section .container {
-  position: relative;
-}
-.about-section .about-img {
-  width: 100%;
-  margin-bottom: 30px;
-}
-.about-section .about-content {
-  padding-left: 30px;
-}
-.about-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-.about-section p {
-  font-size: 1.2rem;
-}
-/* Estilos personalizados */
-.title-section {
-  text-align: center; /* Centraliza o texto */
-  margin-top: 100px; /* Espaço superior */
-}
-/* Estilos personalizados para o rodapé */
-.footer {
-  background-color: #343a40; /* Cor de fundo do rodapé */
-  color: #fff; /* Cor do texto */
-  padding: 20px 0; /* Espaçamento interno */
-}
-.footer p {
-  margin-bottom: 0; /* Remove margem inferior do parágrafo */
 }
